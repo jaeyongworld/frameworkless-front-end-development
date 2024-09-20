@@ -15,6 +15,7 @@ const renderWrapper = component => {
           .component
 
         const child = registry[name]
+        console.log(name);
         if (!child) {
           return
         }
