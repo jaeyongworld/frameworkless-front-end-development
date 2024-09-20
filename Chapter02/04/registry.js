@@ -14,6 +14,7 @@ const renderWrapper = component => {
           .dataset
           .component
 
+        console.log(name)
         const child = registry[name]
         if (!child) {
           return
